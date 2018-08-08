@@ -18,13 +18,15 @@ Installation
 Install $project by running:
 
   - clone the project first
-  -  cd 'project path'
-   - ng serve --open 
+  - cd 'project path'
+  - npm install
+  - ng serve --open 
 
 Contribute
 ----------
 
 - Source Code: https://github.com/Yasmeeen/CloudInnTask.git
+- issues :https://github.com/Yasmeeen/CloudInnTask/issues
 
 Support
 -------

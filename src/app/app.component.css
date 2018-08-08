@@ -1,12 +1,9 @@
 
 
 .worker-card {
-  
     background-color: white;
     border: 1px solid #eee;
     padding: 10px;
-    
-  
   }
 
   .container{
@@ -14,11 +11,9 @@
       text-align: center;
       margin: auto;
       padding: 30px;
-
   }
   .container h2{
-      margin: 50px;
-     
+      margin: 50px;   
       color: gray;
   }
  

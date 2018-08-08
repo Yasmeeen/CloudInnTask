@@ -1,10 +1,5 @@
 import { Component } from '@angular/core';
 import { CallapiService } from './Services/callapi.service';
-// import { Pipe, PipeTransform } from '@angular/core';
-// import { DndDropEvent } from 'ngx-drag-drop';
-// import {MatInputModule} from '@angular/material/input';
-
-
 import { Subject } from 'rxjs/Subject';
 
 
@@ -27,13 +22,10 @@ export class AppComponent {
 
   constructor(private callservices:CallapiService ){
  
-
     this.callservices.search(this.searchTerm).subscribe(
       results=>{
-            this.workers = results["results"];
-            
-            console.log(results);
-             
+            this.workers = results["results"];   
+            console.log(results);     
           },
           error=>{
             console.log(error);

@@ -2,7 +2,7 @@
 <div class="container" >
   <h2>pre-interview technical assessment task</h2>
 
-  
+<!-- input row to filter the cards   -->
 <div class="row"> 
   <div class="input-group mb-3">
     <div class="input-group-prepend">
@@ -13,8 +13,10 @@
   </div>
 
 </div>
+<!-- get peoples from the api and render them in material design cards -->
 <div class="row">
  
+  <!-- ngDraggable to make cards draggable use angular2 draggable pakage to make this  -->
  <div class="col-md-4 p-4  " *ngFor="let worker of workers" ngDraggable>
     <mat-card class="worker-card "  >  
         <mat-card-title>{{worker.name}}</mat-card-title>
