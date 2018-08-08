@@ -33,18 +33,4 @@ export class CallapiService {
   }
 
 
-  //callapi
-//   getworkers(){
-  
-    
-
-
-//   return this.http.get('https://swapi.co/api/people/').map(result => result.json());
-
-
-
- 
-
-//   }
-// }
 }
