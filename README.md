@@ -18,7 +18,7 @@ Installation
 Install $project by running:
 
   - clone the project first
-  -  cd ''project path of the folder'
+  -  cd 'project path'
    - ng serve --open 
 
 Contribute
